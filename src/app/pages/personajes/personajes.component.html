@@ -1,0 +1,9 @@
+<p>personajes works!</p>
+<table>
+    <tr *ngFor="let pers of results.results">
+
+    <td>{{pers.id}}</td>
+    <td>{{pers.name}}</td>
+    <td><img class= "foto" [src]="pers.image" alt=""></td>
+    </tr>
+</table>
